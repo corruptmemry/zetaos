@@ -117,7 +117,7 @@ void cpu_detect()
             Print(0x8b9e70, "\nRDRAND is supported.");
         }
         else{
-            Print(0xb05f5f, "\nYour CPU doesn't supports RDRAND instruction. Kernel is not able to generate random numbers using hardware. System halting.");
+            Print(0xb05f5f, "\nYour CPU doesn't supports RDRAND instruction. Kernel is not able to generate random numbers using hardware. (did you changed emulator cpu flag?) System halting.");
             asm("hlt");
         }
     }
