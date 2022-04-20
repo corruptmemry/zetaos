@@ -16,6 +16,16 @@
   </p>
 <br />
 
+### ⚡ Features
+| Feature |
+| ------------ |
+| Simple malloc/free |
+| TRNG based on RDRAND instruction |
+| Device manager |
+| RTC |
+| Detect CPU name and instructions |
+***
+
 ### 🤔 Requirements
 1. `gcc`
 2. `mtools`
