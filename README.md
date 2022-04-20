@@ -24,7 +24,13 @@
 | Device manager |
 | RTC |
 | Detect CPU name and instructions |
-***
+
+
+### 💻 TODO
+| Idea | Progress |
+| ------ | ----------- |
+| devfs | Work in progress |
+| Tasking | Planned |
 
 ### 🤔 Requirements
 1. `gcc`
@@ -35,3 +41,5 @@
 ### 📦 Building and running
 Build it with `make`
 Run with `make run`
+
+***
